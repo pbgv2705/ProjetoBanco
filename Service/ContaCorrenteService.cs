@@ -11,6 +11,7 @@ namespace ProjetoBanco.Service
 
         public void ChamarSaque()
         {
+            Console.WriteLine();
             Console.Write("Indique seu nome: ");
             var nome = Console.ReadLine();
             Console.Write("Indique valor a sacar: ");
@@ -26,6 +27,7 @@ namespace ProjetoBanco.Service
         }
         public void ChamarDeposito()
         {
+            Console.WriteLine();
             Console.Write("Indique seu nome: ");
             var nome = Console.ReadLine();
             Console.Write("Indique valor a depositar: ");
@@ -41,6 +43,7 @@ namespace ProjetoBanco.Service
     }
     public void ChamarTransferencia()
     {
+            Console.WriteLine();
             Console.Write("Indique seu nome: ");
             var nome = Console.ReadLine();
             Console.Write("Indique valor a transferir: ");
@@ -62,7 +65,7 @@ namespace ProjetoBanco.Service
 
             var transferencia = Transferir(conta.Saldo, valor, contaDestino);          
         }
-    public double Sacar(double saldo, double valor)
+    private double Sacar(double saldo, double valor)
     {
         if (saldo <= valor)
         {
