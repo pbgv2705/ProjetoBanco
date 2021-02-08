@@ -31,15 +31,15 @@ namespace ProjetoBanco
                 {
 
                     case '1':
-                        new ContaCorrenteService().OperacaoDeposito();
+                        new ContaCorrenteService().ChamarDeposito();
                         break;
 
                     case '2':
-                        new ContaCorrenteService().OperacaoSaque();
+                        new ContaCorrenteService().ChamarSaque();
                         break;
 
                     case '3':
-                        new ContaCorrenteService().OperacaoTransferencia();
+                        new ContaCorrenteService().ChamarTransferencia();
                         break;
 
                     case '5':

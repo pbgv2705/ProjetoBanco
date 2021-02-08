@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ProjetoBanco.Model
 {
-    class ContaInvestimento : Conta
+    public class ContaInvestimento : Conta
     {
+        public double Valor { get; set; }
+        public DateTime DataInvestimento { get; set; }
     }
 }

@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ProjetoBanco.Model;
+﻿using ProjetoBanco.Model;
 
 namespace ProjetoBanco.Service
 {
-    public interface IContaCorrenteService
+    public interface IContaCorrenteService : IBaseService<ContaCorrente>
     {
-
-        void Sacar(ContaCorrente contaCorrente, double valor);
-        void Depositar(ContaCorrente contaCorrente, double valor);
-        void Transferir(ContaCorrente contaCorrente, double valor, ContaCorrente contacorrente);
-        
+        void ChamarSaque();
+        void ChamarDeposito();
+        void ChamarTransferencia();
     }
 }
