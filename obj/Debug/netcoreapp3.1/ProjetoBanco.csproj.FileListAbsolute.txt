@@ -1,0 +1,12 @@
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.exe
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.deps.json
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.runtimeconfig.json
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.runtimeconfig.dev.json
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.dll
+C:\GitHub\ProjetoBanco\bin\Debug\netcoreapp3.1\ProjetoBanco.pdb
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.AssemblyInfoInputs.cache
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.AssemblyInfo.cs
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.csproj.CoreCompileInputs.cache
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.dll
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.pdb
+C:\GitHub\ProjetoBanco\obj\Debug\netcoreapp3.1\ProjetoBanco.genruntimeconfig.cache

@@ -1,51 +1,39 @@
-﻿using System;
+﻿using ProjetoBanco.Model;
+using System;
 using System.Globalization;
-using ProjetoBanco.Service;
-using ProjetoBanco.Model;
 
 namespace ProjetoBanco
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            bool a = true;
-            while (a)
+            Console.WriteLine(" ..:: Selecione uma opção ::..");
+            Console.WriteLine();
+            Console.WriteLine("1 - Sacar");
+            Console.WriteLine("2 - Depositar");
+            Console.WriteLine("3 - Transferência");
+            Console.WriteLine("4 - Obter Pix");
+
+            var opcao = Console.ReadKey();
+
+            switch (opcao.KeyChar)
             {
-                Console.WriteLine();
-                Console.WriteLine("Banco Desafio");
+                case '1':
+                    new ContaCorrente().ObterSaque();
+                    break;
 
-                Console.WriteLine();
+                case '2':
+                    new ContaCorrente().ObterDeposito();
+                    break;
 
-                Console.WriteLine(" ..:: Selecione uma opção ::..");
-                Console.WriteLine();
+                case '3':
+                    new ContaCorrente().ObterTransferencia();
+                    break;
 
-                Console.WriteLine("1 - Depósito");
-                Console.WriteLine("2 - Saque");
-                Console.WriteLine("3 - Transferência");
-                Console.WriteLine("5 - Fin");
-
-                var opcao = Console.ReadKey();
-
-                switch (opcao.KeyChar)
-                {
-
-                    case '1':
-                        new ContaCorrenteService().ChamarDeposito();
-                        break;
-
-                    case '2':
-                        new ContaCorrenteService().ChamarSaque();
-                        break;
-
-                    case '3':
-                        new ContaCorrenteService().ChamarTransferencia();
-                        break;
-
-                    case '5':
-                        a = false;
-                        break;
-                }
+                case '4':
+                    new ContaCorrente().ObterPix();
+                    break;
             }
         }
     }

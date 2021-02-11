@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ProjetoBanco.Model
+﻿namespace ProjetoBanco.Model
 {
-    public class ContaInvestimento : Conta
+    public class ContaInvestimento
     {
-        public double Valor { get; set; }
-        public DateTime DataInvestimento { get; set; }
+        public int NumeroConta { get; set; }
+        public int Agencia { get; set; }
+        public int IdCarteira { get; set; }
+        public string Corretora { get; set; }
     }
 }
